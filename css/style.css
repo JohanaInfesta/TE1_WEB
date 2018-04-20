@@ -91,10 +91,12 @@ body{
   margin: 10px 75px 10px 75px;
   display: flex;
 }
+.boxtext a{
+  text-decoration: none;
+}
 h2{
   padding: 20px;
   font-size: 2em;
-  text-decoration: none;
 }
 .boxtext p{
   color: #58D3F7;
@@ -103,5 +105,4 @@ h2{
 }
 a.more{
   color: #FE2EC8;
-  text-decoration: none;
 }
