@@ -34,7 +34,7 @@ a{
   width: 200px;
   height: 290px;
 }
-.header .botones a, h2{
+.header .botones a, h2, table{
   font-family:'Covered By Your Grace', cursive;
 }
 
@@ -85,7 +85,7 @@ a{
 .container{
   position: relative;
   padding-bottom: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -124,8 +124,18 @@ h2{
 
 /* ranking */
 tbody td img{
-  width: 220px;
-  height: 250px;
+  width: 159px;
+  height: 261px;
+}
+table{
+  font-size: 2em;
+  color: hotpink;
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+}
+table th, td{
+  border: 5px grey solid;
 }
 /* fin ranking */
 
