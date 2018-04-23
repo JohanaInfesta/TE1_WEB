@@ -1,13 +1,35 @@
 /* font-family: 'Covered By Your Grace', cursive; */
 /* font-family: 'Rock Salt', cursive; */
 /* font-family: 'Nixie One', cursive; */
+
+/* indice */
+/* General */
+/* Header */
+/* Index */
+/* Anime */
+/* Ranking */
+/* Subscripcion */
+/* Foro */
+/* Footer */
+
+
 /* General */
 body{
   background-image: url(../img/fondo.png);
 }
-.portada a, h2{
+
+a{
+  text-decoration: none;
+}
+
+.portada a, h2, .header .logo a, a.more{
   color: #FE2EC8;
 }
+
+.header .botones a,.boxtext p{
+  color: #58D3F7;
+}
+
 .portada a img, .box img{
   width: 200px;
   height: 290px;
@@ -15,10 +37,7 @@ body{
 .header .botones a, h2{
   font-family:'Covered By Your Grace', cursive;
 }
-.more:hover, .portada a:hover,  { /*.lista a:hover   cuando haga una lista*/
-    color: white;
-    text-decoration: underline;
-}
+
 .portada a, .boxtext p{
     font-family: 'Nixie One', cursive;
 }
@@ -26,9 +45,7 @@ body{
 /* Header */
 .header .logo a{
   font-family: 'Rock Salt', cursive;
-  text-decoration:none;
   font-weight:bold;
-  color: #FE2EC8;
 }
 .header {
   width:100%;
@@ -50,8 +67,6 @@ body{
 }
 .header .botones a {
   display:inline-block;
-  color:#58D3F7;
-  text-decoration:none;
   padding:10px 10px;
   line-height:normal;
   font-size:2.5em;
@@ -82,27 +97,34 @@ body{
 }
 
 .portada a {
-  text-decoration: none;
   font-weight: bolder;
 }
+/* fin index */
 
 /* animes */
 .box{
   margin: 10px 75px 10px 75px;
   display: flex;
 }
-.boxtext a{
-  text-decoration: none;
-}
+
 h2{
   padding: 20px;
   font-size: 2em;
 }
 .boxtext p{
-  color: #58D3F7;
   font-size: 1.2em;
   padding-left: 15px;
 }
-a.more{
-  color: #FE2EC8;
-}
+/* fin animes */
+
+/* ranking */
+/* fin ranking */
+
+/* subscripcion */
+/* fin subscripcion */
+
+/* foro */
+/* fin foro */
+
+/* footer */
+/* fin footer */
