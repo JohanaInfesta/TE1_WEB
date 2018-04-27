@@ -1,3 +1,26 @@
+"use strict";
+
+let btn = document.getElementById('btn-enviar');
+let nombre = document.getElementsByClassName('form-nombre');
+let comentario = document.getElementsByClassName('form-comentario');
+
+btn.addEventListener("click",  function(info){
+  VerificarComentario(nombre, comentario);
+})
+
+function VerificarComentario(name, coment){
+
+  // if ((name)&&(coment)) {
+    document.getElementsByClassName('foro-comentario').innerHTML = "<td>" + name + "</td>" ;
+    document.getElementsByClassName('foro-comentario').innerHTML = "<td>" + coment + "</td>";
+  // }
+  // else{
+  //   alert("Completar todos los campos");
+  // }
+  // console.log(name);
+}
+
+
 $.fn.imagesGrid.defaults.cells = 8;
 
 $('#imgs').imagesGrid({

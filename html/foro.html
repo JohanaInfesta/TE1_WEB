@@ -16,7 +16,6 @@
         <a href="anime.html">Animes</a>
         <a href="backgound.html">Background</a>
         <a href="ranking.html">Ranking</a>
-        <a href="subscripcion.html">Subscripcion</a>
         <a href="foro.html">Foro</a>
       </div>
     </div>
@@ -25,6 +24,40 @@
 
   <!-- cuerpo -->
   <div class="container">
+    <div class="foro-activo">
+      <ul>
+        <li><a href="http://animeseikatsu.foroactivo.com/"> Anime Seikatsu</a></li>
+        <li><a href="http://foro-del-anime.foroactivo.com/"> Anime y Rol</a></li>
+        <li><a href="http://shikirol.activoforo.com/">Shiki Rol</a></li>
+        <li><a href="http://forum.argentina-anime.com/">Argentina Anime</a></li>
+        <li><a href="http://www.otaku-legends.com/">Otaku Legends</a></li>
+      </ul>
+    </div>
+    <div class="tabla-foro">
+      <table class="foro">
+        <thead>
+          <tr>
+            <th class="Nombre"> Nombre</th>
+            <th class="Comentario"> Comentario </th>
+          </tr>
+        </thead>
+        <tbody class="foro-comentario">
+
+        </tbody>
+      </table>
+
+      <form class="form" method="post">
+        <ul class="form-style">
+          <li><label>Name <span class="required">*</span></label>
+            <input type="text" class="form-style-nombre form-nombre" placeholder="Nombre"/>
+          </li>
+          <li><label>Comentario</label>
+            <textarea class="form-style-comentario form-comentario"></textarea>
+          </li>
+          <li><button class="enviar" onclick="enviar()" type="submit">Enviar</button></li>
+        </ul>
+      </form>
+    </div>
 
   </div>
   <!-- fin cuerpo -->
@@ -34,6 +67,6 @@
 
   </div>
   <!-- fin pie de pagina -->
-      <script type="text/javascript" src="../js/script.js"></script>
+  <script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>

@@ -8,7 +8,6 @@
 /* Index */
 /* Anime */
 /* Ranking */
-/* Subscripcion */
 /* Foro */
 /* Footer */
 
@@ -22,11 +21,11 @@ a{
   text-decoration: none;
 }
 
-.portada a, h2, .header .logo a, a.more{
+.portada a, h2, .header .logo a, a.more, ul, ul a{
   color: #FE2EC8;
 }
 
-.header .botones a,.boxtext p{
+.header .botones a,.boxtext p,  .foro thead{
   color: #58D3F7;
 }
 
@@ -34,12 +33,12 @@ a{
   width: 200px;
   height: 290px;
 }
-.header .botones a, h2, table{
+.header .botones a, h2, .tabla-ranking, .foro-activo, .foro thead{
   font-family:'Covered By Your Grace', cursive;
 }
 
 .portada a, .boxtext p{
-    font-family: 'Nixie One', cursive;
+  font-family: 'Nixie One', cursive;
 }
 .boxtext a, .header .botones a{
   transition:all 2000ms ease;
@@ -127,22 +126,59 @@ tbody td img{
   width: 159px;
   height: 261px;
 }
-table{
+.tabla-ranking{
   font-size: 2em;
   color: hotpink;
   text-align: center;
   margin: auto;
   border-collapse: collapse;
 }
-table th, td{
+.tabla-ranking th, td{
   border: 5px grey solid;
 }
 /* fin ranking */
 
-/* subscripcion */
-/* fin subscripcion */
-
 /* foro */
+.foro-activo ul{
+  width: 15%;
+  float: right;
+  list-style: cjk-earthly-branch;
+}
+table.foro, form{
+  margin: auto;
+  text-align: center;
+}
+.foro thead{
+  font-size: 3.3em;
+}
+th.Nombre{
+  width: 20%;
+}
+th.Comentario{
+  width: 70%;
+}
+form li{
+  list-style: none;
+}
+
+.form-style label{
+  margin: 0 0 3px 0;
+  padding: 0px;
+  display:block;
+  font-size: 1.2em;
+}
+.form-style .form-style-nombre{
+  width: 250px
+}
+.form-style .form-style-comentario{
+  width: 500px;
+  height: 150px;
+}
+.enviar{
+  border:none;
+  padding: 10PX;
+  border-radius: 5PX;
+}
 /* fin foro */
 
 /* footer */
