@@ -144,20 +144,20 @@ tbody td img{
   float: right;
   list-style: cjk-earthly-branch;
 }
-table.foro, form{
+table.foro, .form{
   margin: auto;
   text-align: center;
 }
 .foro thead{
   font-size: 3.3em;
 }
-th#Nombre{
+th.Nombre{
   width: 20%;
 }
-th#Comentario{
+th.Comentario{
   width: 70%;
 }
-form li{
+.form li{
   list-style: none;
 }
 
