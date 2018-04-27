@@ -151,10 +151,10 @@ table.foro, form{
 .foro thead{
   font-size: 3.3em;
 }
-th.Nombre{
+th#Nombre{
   width: 20%;
 }
-th.Comentario{
+th#Comentario{
   width: 70%;
 }
 form li{

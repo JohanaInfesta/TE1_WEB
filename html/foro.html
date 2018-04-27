@@ -37,26 +37,26 @@
       <table class="foro">
         <thead>
           <tr>
-            <th class="Nombre"> Nombre</th>
-            <th class="Comentario"> Comentario </th>
+            <th clase="Nombre"> Nombre</th>
+            <th clase="Comentario"> Comentario </th>
           </tr>
         </thead>
-        <tbody class="foro-comentario">
+        <tbody id="foro-comentario">
 
         </tbody>
       </table>
 
-      <form class="form" method="post">
+      <div class="form">
         <ul class="form-style">
           <li><label>Name <span class="required">*</span></label>
-            <input type="text" class="form-style-nombre form-nombre" placeholder="Nombre"/>
+            <input type="text" class="form-style-nombre"  id="form-nombre" placeholder="Nombre"/>
           </li>
           <li><label>Comentario</label>
-            <textarea class="form-style-comentario form-comentario"></textarea>
+            <textarea class="form-style-comentario" id="form-comentario"></textarea>
           </li>
-          <li><button class="enviar" onclick="enviar()" type="submit">Enviar</button></li>
+          <li><button class="enviar" id="btn-enviar">Enviar</button></li>
         </ul>
-      </form>
+      </div>
     </div>
 
   </div>

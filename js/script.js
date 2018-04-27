@@ -1,8 +1,8 @@
 "use strict";
 
 let btn = document.getElementById('btn-enviar');
-let nombre = document.getElementsByClassName('form-nombre');
-let comentario = document.getElementsByClassName('form-comentario');
+let nombre = document.getElementById('form-nombre');
+let comentario = document.getElementById('form-comentario');
 
 btn.addEventListener("click",  function(info){
   VerificarComentario(nombre, comentario);
@@ -10,13 +10,13 @@ btn.addEventListener("click",  function(info){
 
 function VerificarComentario(name, coment){
 
-  // if ((name)&&(coment)) {
-    document.getElementsByClassName('foro-comentario').innerHTML = "<td>" + name + "</td>" ;
-    document.getElementsByClassName('foro-comentario').innerHTML = "<td>" + coment + "</td>";
-  // }
-  // else{
-  //   alert("Completar todos los campos");
-  // }
+   if ((name.value != "")&&(coment.value != "")) {
+
+    document.getElementById('foro-comentario').innerHTML = "<tr><td>" + name.value + "</td>" + "<td>" + coment.value + "</td></tr>";
+  }
+   else{
+    alert("Completar todos los campos");
+  }
   // console.log(name);
 }
 
