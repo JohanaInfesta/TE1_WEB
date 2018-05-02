@@ -8,11 +8,12 @@ function Enviarr(){
   arreglo_nombre.push(valor_nombre);
   arreglo_comentario.push(valor_comentario);
   console.log(arreglo_nombre);
+
   Mostrar();
 }
 
 function Mostrar(){
-  document.getElementById('foro-comentario').innerHTML = "<tr><td>" + arreglo_nombre + "</td>" + "<td>" + arreglo_comentario + "</td></tr>";
+  document.getElementById('foro-comentario').innerHTML = "<td>" + arreglo_nombre + "</td>" + "<td>" + arreglo_comentario + "</td>";
 }
 
 // let btn = document.getElementById('btn-enviar');
